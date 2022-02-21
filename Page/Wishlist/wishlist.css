@@ -1,0 +1,14 @@
+ 
+
+.wishlist-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.1rem;
+    
+}
+
+.wishlist-header{
+    margin: 2.9rem;
+    font-size: 1.9rem;
+    font-weight: var(--extra-bold-text);
+}
