@@ -1,9 +1,4 @@
-.wishlist-container-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+ 
 
 .wishlist-cards{
     display: grid;
