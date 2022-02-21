@@ -1,0 +1,53 @@
+.nav-container-box {
+    background-color: var(--nav-background);
+    width: 100%;
+    display: flex;
+    align-items: center;
+   padding: 1rem;
+    
+}
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-logo {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight:var(--extra-bold-text);
+    color: var(--nav-logo);
+}
+
+.nav-logo a{
+    color: var(--nav-logo) ;
+}
+.nav-input{
+    margin-left:20rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 25rem;
+}
+
+.btn-nav{
+   margin-left: 8rem;
+   border-radius: 5px;
+   font-size: 1rem;
+   font-weight:var(--semi-bold-text);
+   padding: 8px;
+   background-color: var(--nav-logo);
+
+}
+
+.btn-nav a{
+    color: var(--default-color);
+}
+
+.buy-icon{
+    color: var(--default-color);
+    font-size: 1.7rem;
+    margin-left: 3rem;
+    align-content: right;
+}

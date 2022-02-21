@@ -1,0 +1,42 @@
+@import url('/css/navbar.css');
+@import url('/Page/Login/login.css');
+@import url('/Page/Logout/logout.css');
+@import url('/Page/Signup/signup.css');
+@import url("https://robust-ui.netlify.app/css/styles.css")
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200&display=swap");
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+
+
+:root{
+    --nav-background:#FF3374;
+    --nav-logo: #FFBE33;
+    --log-background:#ffbbd0;
+    --body-background:#fce9ef;
+    --color-red: #fd3838 ;
+
+    --primary-color: #1685ec;
+    --default-color: #1c1c20;
+    --error-color: #cc1919;
+    --success-color: #209e4e;
+    --warning-color: #ee751efa;
+    --color-white: #fffbff;
+    --nav-text-color: #2c2b2c;
+    --away-color: #f1c637 ;
+    --hold-color: #9256b9;
+    --input-outline-color:#999696 ;
+    --light-pink: #fcebf4;
+    --accent-pink: #ffd4e2;
+    --active-border: #f7588d;
+    --divider-color: #f8bbd0;
+    --list-hover: #f38cae;
+    --color-main: #ec2c73;
+  
+   
+    --border-rd-circle:50%;
+
+    --extra-bold-text:900;
+    --bold-text: 800;
+  --semi-bold-text: 600;
+}
+
