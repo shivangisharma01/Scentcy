@@ -18,10 +18,12 @@ body{
     font-size: 2rem;
     font-weight:var(--extra-bold-text);
     color: var(--nav-logo);
+    cursor: pointer;
 }
 
 .nav-logo a{
-    color: var(--nav-logo) ;
+    color: var(--default-color) ;
+    text-decoration: none;
 }
 .nav-input{
     margin-left:20rem;
@@ -38,7 +40,6 @@ body{
    font-weight:var(--semi-bold-text);
    padding: 8px;
    background-color: var(--nav-logo);
-
 }
 
 .btn-nav a{
@@ -48,6 +49,6 @@ body{
 .buy-icon{
     color: var(--default-color);
     font-size: 1.7rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
     align-content: right;
 }
