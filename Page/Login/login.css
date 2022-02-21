@@ -16,13 +16,7 @@
     font-weight: 800;
 }
 
-.login-input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
+ 
 .input-group-box {
     margin: 1rem;
 }
