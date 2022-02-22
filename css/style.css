@@ -1,16 +1,19 @@
 @import url('/css/navbar.css');
+@import url('/css/index.css');
 @import url('/Page/Login/login.css');
 @import url('/Page/Logout/logout.css');
 @import url('/Page/Signup/signup.css');
+@import url('/Page/Cart/cart.css');
+@import url('/Page/Product/product.css');
+@import url('/Page/Wishlist/wishlist.css');
 @import url("https://robust-ui.netlify.app/css/styles.css");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200&display=swap");
 /* font-family: 'Source Sans Pro', sans-serif; */
 
 
-
 :root{
     --nav-background:#FF3374;
-    --nav-logo: #FFBE33;
+    --secondary-color: #ba2cf1;
     --log-background:#ffbbd0;
     --body-background:#fce9ef;
     --color-red: #fd3838 ;
@@ -31,13 +34,13 @@
     --divider-color: #f8bbd0;
     --list-hover: #f38cae;
     --color-main: #ec2c73;
-  
    
-    --border-rd-circle:50%;
+     --border-rd-circle:50%;
 
-    --extra-bold-text:900;
-    --bold-text: 800;
-  --semi-bold-text: 600;
+     --extra-bold-text:900;
+     --bold-text: 800;
+     --semi-bold-text: 600;
+     --md-text:500;
 }
 
 
@@ -45,4 +48,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quantity-box-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-footer {
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+
 }

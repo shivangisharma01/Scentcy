@@ -1,14 +1,37 @@
  
-
 .wishlist-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2.1rem;
-    
 }
 
 .wishlist-header{
     margin: 2.9rem;
     font-size: 1.9rem;
     font-weight: var(--extra-bold-text);
+    display: flex;
+}
+
+.cart-added-wishlist {
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    background-color: var(--active-border);
+    color: var(--color-white);
+    font-weight: var(--md-text);
+    font-size: 1.2rem;
+    padding: .3rem .5rem;
+    margin-left: 0.1rem;
+    transition: all .2s ease-in-out;
+    border-radius: var( --border-rd-circle);
+}
+
+.cart-added-wishlist:hover {
+    background-color: var(--color-white);
+    color: var(--active-border);
+}
+
+.remove-btn {
+    position: absolute;
+    right: -1px;
 }
