@@ -1,3 +1,7 @@
+.login-box {
+    min-height:35rem;
+}
+
 .login-container {
     margin: auto;
     width: 30rem;
@@ -46,8 +50,9 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: 600;
-    background-color: var(--nav-logo);
+    background-color: var(--secondary-color);
     cursor: pointer;
+    border-radius: var(--default-color);
 }
 
 .login-button a{
@@ -57,4 +62,10 @@
 
 .mandatory {
     color: var(--color-red);
+}
+
+.log-btn-link:hover {
+    background-color: var(--active-border) ;
+    padding: 0.6rem;
+border-radius: 1rem;
 }

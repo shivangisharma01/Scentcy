@@ -6,133 +6,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="cart.css">
     <script src="js/fontawesomepro.js"></script>
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
     <title>Scentcy</title>
-    <link rel="stylesheet" href="https://robust-ui.netlify.app/components/Card/card.css" />
-    <link rel="stylesheet" href="https://robust-ui.netlify.app/components/Button/button.css" />
+
 </head>
 
 <body>
     <header>
         <nav class="nav-container-box">
-            <div class="nav-logo"><a href="/../index.html">Scentcy <i class="fa-solid fa-spray-can-sparkles"></i></a></div>
-            <input type="search" placeholder="Search for items here" class="nav-input">
-            <div class="navbar-pills"> 
-              <a class="buy-icon" href="/Page/Wishlist/wishlist.html"><i class="fa-solid fa-heart"></i></a>
-              <a class="buy-icon" href="/Page/Cart/cart.html"><i class="fa-solid fa-cart-plus"></i></a>
-              <a class="buy-icon" href="/page/logout/logout.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+            <div class="nav-logo"><a href="/../index.html">Scentcy <i class="fa-solid fa-spray-can-sparkles"></i></a>
             </div>
+            <input type="search" placeholder="Search for items here" class="nav-input">
+            <button class="btn-nav"><a href="/../index.html">Home</a></button>
+            <a class="buy-icon" href="/Page/Wishlist/wishlist.html"><i class="fa-solid fa-heart"></i></a>
+            <a class="buy-icon" href="/Page/Cart/cart.html"><i class="fa-solid fa-cart-plus"></i></a>
+            <a class="buy-icon logout-icon" href="/page/logout/logout.html"><i
+                    class="fa-solid fa-right-from-bracket"></i></a>
         </nav>
     </header>
 
-        <main>
-            
-            <div class="cart-heading">My Cart</div>
+    <main>
 
-<div class="divider-space"></div>
+        <div class="cart-heading">My Cart</div>
 
-            <div class="cart-container-box">
-                <div class="cart-cards">
+        <div class="divider-space"></div>
+
+        <div class="cart-container-box">
+            <div class="cart-cards">
 
 
 
-                    <div class=" card card-price">
+                <div class=" card text-bold">
 
-                        <div class="image-product">
-                            <img src="/images/perfume-one.PNG"
-                                alt="Perfume" />
-                                <div class="card-dismiss">
-                                    <i class="fa-regular fa-circle-xmark"></i>
-                                </div>
-                        </div>
-                        <div class="card-title">
-                           DavidOff
-                        </div>
-                        <div class="card-text">
-                            Cool Water
-                        </div>
-                        <div class="all-price">
-                            <span class="price-after">
-                                Rs.4,212
-                            </span>
-                            <span class="price-before">
-                                Rs.5,200
-                            </span>
-                            <span class="discount">
-                                (19% OFF)
-                            </span>
+                    <div class="image-product">
+                        <img src="/images/perfume-one.PNG" alt="Perfume" />
+                        <div class="cart-add-wishlist">
+                            <i class="fa-solid fa-heart"></i>
                         </div>
 
-                         <button class="btn btn-primary"><i class="fa-solid fa-cart-plus"></i> ADD TO
-                            CART</button>
-                        <button class="btn btn-error"><i class="fa-solid fa-xmark"></i>
-                            Remove</button>
-                      
+                        <div class="cart-remove-card">
+                            <i class="fa-solid fa-remove"></i>
+                        </div>
+
                     </div>
 
-
-
-
-
-                    <div class=" card card-price">
-
-                        <div class="image-product">
-                            <img src="/images/perfume-one.PNG"
-                                alt="Perfume" />
-                                <div class="card-dismiss">
-                                    <i class="fa-regular fa-circle-xmark"></i>
-                                </div>
-                        </div>
-                        <div class="card-title">
-                           DavidOff
-                        </div>
-                        <div class="card-text">
-                            Cool Water
-                        </div>
-                        <div class="all-price">
-                            <span class="price-after">
-                                Rs.4,212
-                            </span>
-                            <span class="price-before">
-                                Rs.5,200
-                            </span>
-                            <span class="discount">
-                                (19% OFF)
-                            </span>
-                        </div>
-
-                         <button class="btn btn-primary"><i class="fa-solid fa-cart-plus"></i> ADD TO
-                            CART</button>
-                        <button class="btn btn-error"><i class="fa-solid fa-xmark"></i>
-                            Remove</button>
-                      
+                    <div class="card-title">
+                        DavidOff-Cool Water
                     </div>
 
-
-                  </div>
-
-
-
-
-                    <div class="cart-pricing">
-                        <div class="price-heading">PRICING </div>
-                        <div class="price-list">
-                            <div class="price-component">DavidOff Cool Water x 2 <span class="price-value">₹10,400</span></div>
-                            <div class="price-component">Shipping Charges <span class="price-value">₹500</span></div>
-                            <div class="price-component"> Discount <span class="price-value">-₹1,976</span></div>
-                        </div>
-                        <div class="price-total">Total <span class="price-value">₹8,924</span></div>
-                     
-
-                    
+                    <div class="all-price">
+                        <span class="price-after">
+                            Rs.4,212
+                        </span>
+                        <span class="price-before">
+                            Rs.5,200
+                        </span>
+                        <span class="discount">
+                            (19% OFF)
+                        </span>
                     </div>
+
+                    <div class="quantity-box-flex">
+                        <button class="btn  btn-move-wishlist"> <i class="fa-solid fa-heart"></i>
+                           Move To Wishlist</button>
+                        <div class="quantity-box"><span class="quantity">-</span><span
+                                class="quantity-number">1</span><span class="quantity">+</span></div>
+
+                    </div>
+
                 </div>
 
-        </main>
 
-        <div class="section-footer">
+                <!--  -->
+
+
+                <div class=" card text-bold">
+
+                    <div class="image-product">
+                        <img src="/images/perfume-one.PNG" alt="Perfume" />
+                        <div class="cart-add-wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <div class="cart-remove-card">
+                            <i class="fa-solid fa-remove"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="card-title">
+                        DavidOff-Cool Water
+                    </div>
+
+                    <div class="all-price">
+                        <span class="price-after">
+                            Rs.4,212
+                        </span>
+                        <span class="price-before">
+                            Rs.5,200
+                        </span>
+                        <span class="discount">
+                            (19% OFF)
+                        </span>
+                    </div>
+
+                    <div class="quantity-box-flex">
+                        <button class="btn  btn-move-wishlist"> <i class="fa-solid fa-heart"></i>
+                            Move To Wishlist</button>
+                        <div class="quantity-box"><span class="quantity">-</span><span
+                                class="quantity-number">1</span><span class="quantity">+</span></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--  -->
+            <div class="cart-pricing">
+                <div class="price-heading">PRICING </div>
+                <div class="price-list">
+                    <div class="price-component">DavidOff Cool Water x 2 <span class="price-value">₹10,400</span></div>
+                    <div class="price-component">Shipping Charges <span class="price-value">₹500</span></div>
+                    <div class="price-component"> Discount <span class="price-value">-₹1,976</span></div>
+                </div>
+                <div class="price-total">Total <span class="price-value">₹8,924</span></div>
+                <div class="quantity-box-flex"> <button class="btn"> Checkout</button> </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <div class="section-footer">
 
         <footer class="footer">
             <div class="footer-header">Social Media Account's</div>
@@ -155,7 +164,7 @@
         </footer>
 
     </div>
-    
-    </body>
-    
-    </html>
+
+</body>
+
+</html>

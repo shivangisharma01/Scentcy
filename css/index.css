@@ -22,10 +22,10 @@
 .home-btn {
     width: 58%;
     margin-top: 2rem;
-    padding: 9px;
-    background-color: var(--color-main);
+    padding: 6px 14px 6px 14px;
+    background-color: var(--secondary-color);
     font-size: 1.2rem;
-    font-weight: var( --bold-text);
+    font-weight: var(--semi-bold-text);
 }
 
 .home-btn a {
@@ -38,7 +38,7 @@
     margin: 2rem;
     margin-top: 4rem;
     font-size: 3rem;
-    font-weight: var( --bold-text);
+    font-weight: var(--bold-text);
 }
 
 .category-cards {

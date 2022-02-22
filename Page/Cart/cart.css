@@ -24,6 +24,25 @@
     height: max-content;
 }
 
+.cart-add-wishlist {
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    background-color: var(--color-white);
+    color: var(--active-border);
+    font-weight: var(--md-text);
+    font-size: 1.2rem;
+    padding: .3rem .5rem;
+    margin-left: 0.1rem;
+    transition: all .2s ease-in-out;
+    border-radius: var( --border-rd-circle);
+}
+
+.cart-add-wishlist:hover {
+    background-color: var(--active-border);
+    color: var(--color-white);
+}
+
 .price-list{
     border-bottom: 2px solid var(--default-color);
 }
@@ -36,13 +55,11 @@
 .price-component{
     margin: 1rem 0px;
     font-size: 1.2rem;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 
 .price-value{
     float: right;
-   
 }
 
 .price-total{
@@ -51,7 +68,59 @@
     font-weight: 600;
 }
 
-.section-footer {
-    margin-top: 10rem;
 
+.cart-btn{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--log-background);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.quantity-number{
+    border: 2px solid var(--default-color);
+    border-radius: 8px;
+    padding: 3px 8px;
+    margin: 0 1rem;
+}
+
+.quantity-box {
+    padding: 1rem;
+}
+
+.quantity {
+   
+    padding: 0 7px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: var(--default-color);
+}
+
+.text-bold{
+    font-weight: var(--semi-bold-text);
+}
+
+.cart-remove-card {
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    background-color: var(--color-white);
+    color: var(--default-color);
+    font-weight: var(--extra-bold-text);
+    font-size: 1.2rem;
+    padding: .3rem .5rem;
+    margin-right: 0.1rem;
+    transition: all .2s ease-in-out;
+    border-radius: var( --border-rd-circle);
+}
+
+.cart-remove-card:hover {
+    background-color: var(--default-color);
+    color: var(--color-white);
+}
+
+.btn-move-wishlist {
+    border-radius: 4px;
+    min-width: fit-content;
 }

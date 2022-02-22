@@ -1,54 +1,58 @@
-.nav-container-box {
-    background-color: var(--nav-background);
-    width: 100%;
-    display: flex;
-    align-items: center;
-   padding: 1rem;
-   
-}
 
-body{
+
+body {
     margin: 0px;
     overflow-x: hidden;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.nav-container-box {
+    background-color: var(--nav-background);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
 .nav-logo {
     margin-left: 1rem;
     font-size: 2rem;
-    font-weight:var(--extra-bold-text);
+    font-weight: var(--extra-bold-text);
     color: var(--nav-logo);
     cursor: pointer;
 }
 
-.nav-logo a{
-    color: var(--default-color) ;
+.nav-logo a {
+    color: var(--default-color);
     text-decoration: none;
 }
-.nav-input{
-    margin-left:20rem;
+
+.nav-input {
+    margin-left: 16rem;
     font-size: 1rem;
     border-radius: 1rem;
     height: 2.5rem;
     width: 25rem;
 }
 
-.btn-nav{
-   margin-left: 8rem;
-   border-radius: 5px;
-   font-size: 1rem;
-   font-weight:var(--semi-bold-text);
-   padding: 8px;
-   background-color: var(--nav-logo);
+.btn-nav {
+    margin-left: 5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: var(--semi-bold-text);
+    padding: 8px;
+    background-color: var(--default-color);
+    border: solid;
 }
 
-.btn-nav a{
-    color: var(--default-color);
+.btn-nav a {
+    color: var(--accent-pink);
+    text-decoration: none;
 }
 
-.buy-icon{
+.buy-icon {
     color: var(--default-color);
     font-size: 1.7rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
     align-content: right;
 }
